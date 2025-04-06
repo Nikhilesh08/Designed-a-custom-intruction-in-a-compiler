@@ -1,7 +1,7 @@
-# Custom Compiler with SI and VISHNU Instructions
+# Custom Compiler with and VISHNU Instructions
 
 This project is a simple compiler built using **Flex**, **Bison**, and **C++** that parses and interprets domain-specific instructions:
-- `SI` for calculating **Simple Interest**
+
 - `VISHNU` for computing the **factorial** of a number
 
 It supports:
@@ -50,11 +50,11 @@ Copy
 Edit
 ./mycompiler
  Example Inputs:
-1. Simple Interest (SI)
+
 java
 Copy
 Edit
-SI A = 1000, 2, 5;
+
 2. Factorial (VISHNU)
 java
 Copy
@@ -64,7 +64,7 @@ VISHNU X = 5;
 ini
 Copy
 Edit
-X = (1000 * 2 * 5) / 100;
+
  Features
 Detects and evaluates valid expressions
 
